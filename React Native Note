@@ -1,0 +1,8 @@
+Development enviroment settup (Windows-Android)
+1. Install Chocolatey: [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')) 
+//notice1: use "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; ” to avoid tls version mismatch error, most windows user has this error.
+//notice2: error "because running scripts is disabled on this system." --> sol: Set-ExecutionPolicy RemoteSigned, change the executionPolicy from Restricted to RemoteSigned, there are four execution policies for PowerShell: Restricted, AllSigned, RemoteSigned, Unrestricted
+2. install nodejs (you could use chocolatey to install or install from the official website directly)
+2.1 chocolatey: choco install nodejs.install
+2.2 website: https://nodejs.org/en/download/
+3.

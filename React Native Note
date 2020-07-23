@@ -5,4 +5,14 @@ Development enviroment settup (Windows-Android)
 2. install nodejs (you could use chocolatey to install or install from the official website directly)
 2.1 chocolatey: choco install nodejs.install
 2.2 website: https://nodejs.org/en/download/
-3.
+2.3 after installing node.js, npm is also installed simultaneously, which is a package management provided by node.js.
+You can also download yarn, which is privided by facebook, to accelarate module downloading for node.js.
+yarn add == npm install --save
+3. Install Android Studio: It's just an IDE, you can also use other IDEs like VS code, Sublime or Atom.
+If you are not using Android Studio, then you will need to install Android SDK.
+
+
+
+
+
+//https://reactnative.cn/docs/0.51/getting-started.html
